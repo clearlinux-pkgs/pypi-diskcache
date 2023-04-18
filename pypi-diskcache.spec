@@ -4,10 +4,10 @@
 # Using build pattern: distutils3
 #
 Name     : pypi-diskcache
-Version  : 5.5.1
-Release  : 26
-URL      : https://files.pythonhosted.org/packages/1e/18/c34803f2df72589189bca2432c05302d2c3ae1c513f81181a786d1c25487/diskcache-5.5.1.tar.gz
-Source0  : https://files.pythonhosted.org/packages/1e/18/c34803f2df72589189bca2432c05302d2c3ae1c513f81181a786d1c25487/diskcache-5.5.1.tar.gz
+Version  : 5.6.1
+Release  : 27
+URL      : https://files.pythonhosted.org/packages/7b/65/5d93ced326fe943ca8970848fd0522be81868a9afa169a22fd19cd737d5c/diskcache-5.6.1.tar.gz
+Source0  : https://files.pythonhosted.org/packages/7b/65/5d93ced326fe943ca8970848fd0522be81868a9afa169a22fd19cd737d5c/diskcache-5.6.1.tar.gz
 Summary  : Disk Cache -- Disk and file backed persistent cache.
 Group    : Development/Tools
 License  : Apache-2.0
@@ -53,10 +53,10 @@ python3 components for the pypi-diskcache package.
 
 
 %prep
-%setup -q -n diskcache-5.5.1
-cd %{_builddir}/diskcache-5.5.1
+%setup -q -n diskcache-5.6.1
+cd %{_builddir}/diskcache-5.6.1
 pushd ..
-cp -a diskcache-5.5.1 buildavx2
+cp -a diskcache-5.6.1 buildavx2
 popd
 
 %build
@@ -64,7 +64,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1681224004
+export SOURCE_DATE_EPOCH=1681830621
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
