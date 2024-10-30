@@ -5,7 +5,7 @@
 #
 Name     : pypi-diskcache
 Version  : 5.6.3
-Release  : 30
+Release  : 31
 URL      : https://files.pythonhosted.org/packages/3f/21/1c1ffc1a039ddcc459db43cc108658f32c57d271d7289a2794e401d0fdb6/diskcache-5.6.3.tar.gz
 Source0  : https://files.pythonhosted.org/packages/3f/21/1c1ffc1a039ddcc459db43cc108658f32c57d271d7289a2794e401d0fdb6/diskcache-5.6.3.tar.gz
 Summary  : Disk Cache -- Disk and file backed persistent cache.
